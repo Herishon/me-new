@@ -1,0 +1,123 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* =================== */
+/* === MEDIA QUERY === */
+/* =================== */
+@media only screen and (max-width: 400px){
+    .banner .sub_title {
+        font-size: 14px;
+    }
+    .banner .title {
+        font-size: 30px;
+    }
+    .features .description .desc_img {
+        max-width: 25px;
+    }
+    .testimonial .user_name {
+        font-size: 20px;
+    }
+    .testimonial .user_designation {
+        font-size: 16px;
+    }
+    .footer .nav .ft-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+}
+@media only screen and (max-width: 575px){
+    .banner .title {
+        font-size: 32px;
+    }
+    .banner .banner_img {
+        width: 100%;
+    }
+    .features .features_title {
+        font-size: 30px;
+    }
+    .design .design_title {
+        font-size: 30px;
+    }
+    .choose .choose_title {
+        font-size: 30px;
+    }
+    .choose .text_wrapper h4 {
+        font-size: 20px;
+    }
+    .features_built .features_title {
+        font-size: 30px;
+    }
+    .price .price_title {
+        font-size: 30px;
+    }
+    .price .card_title {
+        font-size: 35px;
+    }
+    .testimonial .testimonial_title {
+        font-size: 30px;
+    }
+    /* .testimonial .swiper {
+        padding: 0 20% !important;
+    } */
+    .faq .faq_title {
+        font-size: 30px;
+    }
+    .app_download .app_title {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .banner .banner_left {
+        margin-bottom: 80px;
+    }
+    .features .img_wrapper {
+        margin-bottom: 80px;
+    }
+    .smart .content_wrapper {
+        padding: 10px 0;
+        border: none;
+    }
+    .design 
+    .design .img_wrapper {
+        margin-bottom: 80px;
+    }
+    .price .price_text {
+        padding: 0;
+    }
+    .faq .faq_text {
+        padding: 0;
+    }
+    .app_download .app_img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .features .description .desc_img {
+        max-width: 25px;
+    }
+    .choose .some_text {
+        padding: 0;
+    }
+    .price .price_title {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1199px){
+
+}
