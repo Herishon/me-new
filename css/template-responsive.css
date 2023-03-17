@@ -1,0 +1,112 @@
+/* =============== */
+/* MEDIA QUEIRES */
+/* =============== */
+
+/* Extra small devices (phones, 599px and down) */
+@media only screen and (max-width: 599px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .template .container .template-gallery{
+        display: block;
+        width: 100%;
+    }
+    .template .container .template-gallery .grid .img{
+        max-width: 100%;
+        margin: 15px 0px;
+    }
+    .template .container .template-gallery .grid .img:first-child{
+        margin-top: 0px;
+    }
+    .template .container .template-gallery .grid .link{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -85%);
+    }
+    .footer .container .grid .right{
+        display: flex;
+        align-items: center;
+    }
+    .footer .container .grid{
+        width: 100%;
+        display: block;
+    }
+    .footer .container .grid .left{
+        text-align: center;
+        padding: 10px 0px 20px 0px;
+    }
+    .footer .container .grid .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .container .grid .right .social-links i{
+        font-size: 25px;
+    }
+    .footer .container .bottom-text{
+        font-size: 14px;
+    }
+}
+
+/* ======================================================================*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*======================================================================*/
+@media only screen and (min-width: 600px) {
+    .template, .footer{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        overflow: hidden;
+    }
+    .template .container .template-gallery{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    .template .container .template-gallery .grid .img{
+        max-width: 100%;
+        margin: 15px 0px;
+    }
+    .template .container .template-gallery .grid .link{
+        font-size: 16px;
+        padding: 6px 25px;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -85%);
+    }
+    .footer .container .grid .left{
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+
+/* ======================================================================*/
+/* Large devices (laptops/desktops, 992px and up) */
+/* ======================================================================*/
+@media only screen and (min-width: 992px) {
+    .template .container .template-gallery .grid .link{
+        font-size: 17px;
+        padding: 6px 30px;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+    }
+}
+
+
+/* ======================================================================*/
+/* Extra large devices (laptops/desktops, 1200px and up) */
+/* ======================================================================*/
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 1140px;
+        margin: auto;
+    }
+}

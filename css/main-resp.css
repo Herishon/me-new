@@ -1,0 +1,201 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+ /* ============== */
+/* === MEDIA QUERY === */
+/* ============== */
+@media only screen and (max-width: 400px){
+	.hero-section .container .banner-wrapper .btn-hire {
+		display: block;
+		width: 100%;
+		margin-right: 0px !important;
+	}
+	.hero-section .container .banner-wrapper .btn-explore {
+		display: block;
+		width: 100%;
+		margin-right: 0px !important;
+	}
+}
+@media only screen and (max-width: 575px){
+	.navbar-nav .dropdown_menu {
+		min-width: 100% !important;
+	}
+	.hero-section {
+		padding: 80px 0;
+	}
+	.hero-section .container .banner-wrapper .hero-heading {
+		font-size: 35px;
+		font-weight: 500;
+		line-height: 1.2;
+	}
+	.hero-section .container .banner-wrapper .hero-text {
+		font-size: 17px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 20px;
+		padding: 16px 3px !important;
+	}
+	.service .row .card-wrapper {
+		padding-left: 0.5rem !important;
+		padding-right: 0.5rem !important;
+	}
+	.service .row .card-wrapper .card,
+	.service .row .card-wrapper .card .card-body {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.portfolio .row .btn-toggler {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+	.portfolio .row .btn-toggler:last-child {
+		margin-bottom: 0;
+	}
+	.skills .progress-wrapper {
+		margin-bottom: 50px;
+	}
+	.pricing .container .row .price-box {
+		margin-bottom: 80px;
+	}
+	.pricing .container .row .price-box:last-child {
+		margin-bottom: 0;
+	}
+	.about .about-me .row .img-wrapper {
+		margin-bottom: 50px;
+	}
+	.contact .container .row .message-left {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		margin-bottom: 30px;
+	}
+	.contact .container .row .message-right {
+		padding: 20px !important;
+	}
+	.contact .message-body .message-right .send-btn {
+		width: 100%;
+	}
+	.footer .container .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.footer .container .row .col-sm-6 {
+		margin-bottom: 10px;
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+}
+@media only screen and (max-width: 767px){
+	.hero-section .container .banner-wrapper .hero-heading {
+		font-size: 48px;
+		text-align: center;
+	}
+	.hero-section .container .banner-wrapper .hero-text {
+		padding: 32px 60px;
+	}
+	.service {
+		padding-top: 48px;
+		padding-bottom: 16px;
+	}
+	.service .card-text {
+		text-align: center;
+	}
+	.portfolio {
+		padding: 48px 0;
+	}
+	.about .about-me .row .img-wrapper {
+		text-align: center;
+	}
+	.footer .container .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 991px){
+	.container {
+		max-width: 920px;
+	}
+	.navbar-expand-md .navbar-nav {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.nav-menu {
+		width: 100%;
+		height: 100%;
+		background-color: #18171A;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		text-align: center;
+		position: fixed;
+		left: -100%;
+		top: 0px;
+		overflow: auto;
+		-webkit-transition: left 0.4s cubic-bezier(1, 0, 0, 1);
+		-o-transition: left 0.4s cubic-bezier(1, 0, 0, 1);
+		transition: left 0.4s cubic-bezier(1, 0, 0, 1);
+		-webkit-box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+	.nav-menu.active {
+		left: 0;
+	}
+	.nav-link {
+		font-size: 18px;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding: 18px 8px;
+	}
+	.navbar-nav .dropdown_menu {
+		display: block;
+		left: 0;
+		margin-top: 10px;
+	}
+	.hamburger {
+		display: block;
+		cursor: pointer;
+		z-index: 2000;
+	}
+	.hamburger.active .bar:nth-child(1) {
+		background-color: #e6e6e6;
+		-webkit-transform: translateY(8px) rotate(45deg);
+		-ms-transform: translateY(8px) rotate(45deg);
+		transform: translateY(8px) rotate(45deg);
+		-webkit-transition: all 0.7s;
+		-o-transition: all 0.7s;
+		transition: all 0.7s;
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(3) {
+		background-color: #e6e6e6;
+		-webkit-transform: translateY(-8px) rotate(-45deg);
+		-ms-transform: translateY(-8px) rotate(-45deg);
+		transform: translateY(-8px) rotate(-45deg);
+		-webkit-transition: all 0.7s;
+		-o-transition: all 0.7s;
+		transition: all 0.7s;
+	}
+	.hero-section .container .banner-wrapper .hero-heading {
+		font-size: 64px;
+	}
+	.hero-section .container .banner-wrapper .hero-text {
+		padding: 32px 104px;
+	}
+	footer #scrollTopBtn {
+		display: none !important;
+	}
+}
